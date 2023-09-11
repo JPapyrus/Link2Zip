@@ -2,4 +2,5 @@
 Creates a folder and populates it with empty zip files with the names of every game in a specified website
 
 # How to install
-- Download release
+- Go to releases
+- 
