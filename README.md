@@ -3,4 +3,5 @@ Creates a folder and populates it with empty zip files with the names of every g
 
 # How to install
 - Go to releases
-- 
+- Click the file named Link2Zip.exe to download
+- Run Link2Zip
