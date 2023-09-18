@@ -33,9 +33,9 @@ while True:
     if line.find("</html>") != -1:
         break
     
-    # Parses names of games to create zip files
+    # Finds and parses names of games to create zip files
     elif line.find("title=\"") != -1:
-        line = f.readline()
+        line = f.readline().replace("&amp", "&")
         open(name + "/" + line[8:-1], "w").close()
 
 f.close()
