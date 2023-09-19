@@ -35,7 +35,7 @@ while True:
     
     # Finds and parses names of games to create zip files
     elif line.find("title=\"") != -1:
-        line = f.readline().replace("&amp", "&")
+        line = f.readline().replace("&amp;", "&")
         open(name + "/" + line[8:-1], "w").close()
 
 f.close()
